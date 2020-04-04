@@ -268,33 +268,42 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	bottom: 3000em;
 	margin: 0; 
 }
-/* .gallery-b li > div p.link-b { 
-	width: 110px;
-	height: 105px; 
-} 	
-.gallery-b li > div p.link-b a { 
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	border-radius: 0;
-	background: #27ce90;
-	text-indent: -3000em;
- } */
-			.gallery-b li > div p.link-b a > .fit-a { left: -3000em; }
-			.gallery-b li > div p.link-b a:before, .gallery-b li > div p.link-b a:after { content: ""; display: block; position: absolute; background: #fff; }
-				.gallery-b li > div p.link-b a:before { left: 24px; top: 52px; width: 61px; height: 1px; }
-				.gallery-b li > div p.link-b a:after { left: 54px; top: 22px; width: 1px; height: 61px; }
-		.gallery-b li:hover > div h2, .gallery-b li:hover > div h3 { opacity: 0; filter: alpha(opacity = 0); }
-		.gallery-b li:hover > div p.link-b { left: 0; bottom: 0; }
-		#root .gallery-b li:hover > div { z-index: 3; background: none; filter: none; }
-		.gallery-b li:hover > span { opacity: 0; filter: alpha(opacity = 0); }
-		.gallery-b li:hover > div > ul { position: absolute; left: -3000em; top: -3000em; }
-	.gallery-b li > span { display: block; position: absolute; left: 25px; bottom: 20px; z-index: 3; text-transform: uppercase; }
-	.gallery-b li > a.link {display: block; overflow: hidden; position: absolute; left: 0; top: 0; z-index: 10; width: 100%; height: 100%; text-indent: -3000em; text-align: left;  }
-		.gallery-b li > div > ul { overflow: hidden; z-index: 3; list-style: none; width: 100%; margin: -47px 0 0; padding: 0 25px 8px; color: #c1c4c6; font-family: 'Montserrat', sans-serif; white-space: nowrap; }
-			.gallery-b li > div > ul li { position: relative; float: left; width: auto; margin: 0 14px 0 0; padding: 0 0 0 18px; font-size: 10px; line-height: 40px; text-transform: uppercase; }
-			.gallery-b li > div > ul li a { color: #c1c4c6; }
-			.gallery-b li > div > ul li i { position: absolute; left: 0; top: 13px; font-size: 12px; }
+
+.gallery-b li > div p.link-b a > .fit-a { left: -3000em; }
+.gallery-b li > div p.link-b a:before, .gallery-b li > div p.link-b a:after { content: ""; display: block; position: absolute; background: #fff; }
+.gallery-b li > div p.link-b a:before { left: 24px; top: 52px; width: 61px; height: 1px; }
+.gallery-b li > div p.link-b a:after { left: 54px; top: 22px; width: 1px; height: 61px; }
+.gallery-b li:hover > div h2, .gallery-b li:hover > div h3 { 
+	opacity: 0; filter: alpha(opacity = 0);
+ }
+.gallery-b li:hover > div p.link-b {
+	 left: 0; bottom: 0;
+	 background: url("../images/01.png") no-repeat;
+	 }
+/* .ax:hover{
+	background: url("../images/01.png") no-repeat;
+
+} */
+#root .gallery-b li:hover > div {
+	 z-index: 3;
+	 background: none;
+	 filter: none;
+	 }
+.gallery-b li:hover > span {
+	 opacity: 0;
+	 filter: alpha(opacity = 0);
+	 }
+.gallery-b li:hover > div > ul { 
+	position: absolute;
+	left: -3000em;
+	top: -3000em;
+ }
+.gallery-b li > span { display: block; position: absolute; left: 25px; bottom: 20px; z-index: 3; text-transform: uppercase; }
+.gallery-b li > a.link {display: block; overflow: hidden; position: absolute; left: 0; top: 0; z-index: 10; width: 100%; height: 100%; text-indent: -3000em; text-align: left;  }
+.gallery-b li > div > ul { overflow: hidden; z-index: 3; list-style: none; width: 100%; margin: -47px 0 0; padding: 0 25px 8px; color: #c1c4c6; font-family: 'Montserrat', sans-serif; white-space: nowrap; }
+.gallery-b li > div > ul li { position: relative; float: left; width: auto; margin: 0 14px 0 0; padding: 0 0 0 18px; font-size: 10px; line-height: 40px; text-transform: uppercase; }
+.gallery-b li > div > ul li a { color: #c1c4c6; }
+.gallery-b li > div > ul li i { position: absolute; left: 0; top: 13px; font-size: 12px; }
 
 .home-a, #content.home-a { padding: 0; }
 #root > .home-a { position: relative; z-index: 1; width: 100%; }

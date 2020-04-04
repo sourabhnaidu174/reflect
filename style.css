@@ -1,3 +1,70 @@
+.port-1{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-1:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+.port-2{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-2:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+.port-3{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-3:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+.port-4{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-4:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+.port-5{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-5:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+.port-6{
+    width: 360px;
+    height: 270px;
+    background: url("./REFLECT Ventures Limited_files/grid--1.png") no-repeat;
+    /* margin: 50px; */
+}
+.port-6:hover{
+    width: 360px;
+    height: 270px;
+    background: url("../reflect//images/01.png") no-repeat;
+}
+
 .gm-control-active>img {
     box-sizing: content-box;
     display: none;
